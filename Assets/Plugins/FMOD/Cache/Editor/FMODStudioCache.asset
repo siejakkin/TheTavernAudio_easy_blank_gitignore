@@ -1,6 +1,78 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8738744131178787348
+--- !u!114 &-9107232186173112776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Tavern/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638841112850776371
+  FileSizes:
+  - Name: Desktop
+    Value: 1640
+  Exists: 1
+--- !u!114 &-7326740647101037342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/JumpSwitcher
+  m_EditorClassIdentifier: 
+  Name: JumpSwitcher
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1924784046
+    data2: 2364934368
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Jump
+  - Land
+  Exists: 1
+--- !u!114 &-6985454158903919851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/FootSwitcher
+  m_EditorClassIdentifier: 
+  Name: FootSwitcher
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3116822628
+    data2: 2099992070
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
+--- !u!114 &-4685942415296462026
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,135 +82,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Footsteps/Land
+  m_Name: event:/TavernAmbient
   m_EditorClassIdentifier: 
-  Path: event:/Footsteps/Land
+  Path: event:/TavernAmbient
   Guid:
-    Data1: 324283832
-    Data2: 1262319344
-    Data3: -835455052
-    Data4: 1396800577
+    Data1: 206620878
+    Data2: 1132169255
+    Data3: 2141744012
+    Data4: -1768762539
   Banks:
-  - {fileID: -297460671244504612}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 1915591009699025771}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
---- !u!114 &-6320456645732455422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Inside Room
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Inside Room
-  Guid:
-    Data1: 815318414
-    Data2: 1123909565
-    Data3: 2003261354
-    Data4: 1046576381
-  Banks:
-  - {fileID: -297460671244504612}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &-6313363903074643943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Doors_single
-  m_EditorClassIdentifier: 
-  Path: event:/Doors_single
-  Guid:
-    Data1: -1605238268
-    Data2: 1178637917
-    Data3: 1876825985
-    Data4: -1375740229
-  Banks:
-  - {fileID: -297460671244504612}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -195211280649015123}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1187
---- !u!114 &-4688399521267928900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Forest ambient
-  m_EditorClassIdentifier: 
-  Path: event:/Forest ambient
-  Guid:
-    Data1: 536506947
-    Data2: 1297998681
-    Data3: 1104948661
-    Data4: -793358619
-  Banks:
-  - {fileID: -297460671244504612}
+  - {fileID: 6141849086486552556}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 51000
---- !u!114 &-4246744697461997823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Footsteps/Jump
-  m_EditorClassIdentifier: 
-  Path: event:/Footsteps/Jump
-  Guid:
-    Data1: 568316645
-    Data2: 1220249849
-    Data3: -1704171132
-    Data4: -1456868389
-  Banks:
-  - {fileID: -297460671244504612}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 6954510192736954330}
-  - {fileID: -3929330921543464414}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
+  Length: 207609
 --- !u!114 &-4032471469117164208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,12 +113,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: snapshot:/Outside
   Guid:
-    Data1: -1005784112
-    Data2: 1147279740
-    Data3: -199627643
-    Data4: 383222599
+    Data1: 56845860
+    Data2: 1156217743
+    Data3: -1312599634
+    Data4: -1047872032
   Banks:
-  - {fileID: -297460671244504612}
+  - {fileID: 6141849086486552556}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -166,86 +126,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-3989542463898777717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Fire/Fire
-  m_EditorClassIdentifier: 
-  Name: Fire
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 4129583021
-    data2: 1938125211
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Off
-  - On
-  Exists: 1
---- !u!114 &-3929330921543464414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jump/Footsteps_surface
-  m_EditorClassIdentifier: 
-  Name: Footsteps_surface
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 339004533
-    data2: 4014147562
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Stone
-  - Wood
-  - Bed
-  Exists: 1
---- !u!114 &-3835351059419555204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Bed
-  m_EditorClassIdentifier: 
-  Path: event:/Bed
-  Guid:
-    Data1: -500695029
-    Data2: 1246085579
-    Data3: 562479799
-    Data4: -377848113
-  Banks:
-  - {fileID: -297460671244504612}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
 --- !u!114 &-3830263011273236712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,12 +140,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: snapshot:/Health
   Guid:
-    Data1: 1501304531
-    Data2: 1176752988
-    Data3: 1993918123
-    Data4: -756060106
+    Data1: -1270355049
+    Data2: 1134657965
+    Data3: 2127716524
+    Data4: 1086872019
   Banks:
-  - {fileID: -297460671244504612}
+  - {fileID: 6141849086486552556}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -273,7 +153,35 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-1530002513333546396
+--- !u!114 &-2398450162631898690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Door
+  m_EditorClassIdentifier: 
+  Path: event:/Door
+  Guid:
+    Data1: -1165049865
+    Data2: 1216816332
+    Data3: -1373816404
+    Data4: -945019934
+  Banks:
+  - {fileID: 6141849086486552556}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5877453857353778668}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 750
+--- !u!114 &-245946615216094018
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,90 +191,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Tavern ambient/Occlusion
+  m_Name: parameter:/Footsteps/FootSwitcher
   m_EditorClassIdentifier: 
-  Name: Occlusion
+  Name: FootSwitcher
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 1723058558
-    data2: 2053362306
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-1195820580763886965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Music/Occlusion
-  m_EditorClassIdentifier: 
-  Name: Occlusion
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1723058558
-    data2: 2053362306
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-297460671244504612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD Studio/Tavern/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638636465958434414
-  FileSizes:
-  - Name: Desktop
-    Value: 6206368
-  Exists: 1
---- !u!114 &-195211280649015123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Doors_single/Doors
-  m_EditorClassIdentifier: 
-  Name: Doors
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1364542977
-    data2: 57931252
+    data1: 3116822628
+    data2: 2099992070
   Type: 2
   IsGlobal: 0
   Labels:
-  - Open
-  - Close
+  - Stone
+  - Wood
   Exists: 1
+--- !u!114 &-128324030355398872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Jump
+  Guid:
+    Data1: -572302573
+    Data2: 1199719323
+    Data3: -960367722
+    Data4: -815028681
+  Banks:
+  - {fileID: 6141849086486552556}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6985454158903919851}
+  - {fileID: -7326740647101037342}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 806
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,29 +249,27 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 2565381813284281791}
-  - {fileID: -297460671244504612}
+  - {fileID: -9107232186173112776}
+  - {fileID: 6141849086486552556}
   EditorEvents:
   - {fileID: 7840059489574424299}
   - {fileID: 4173816062126049097}
-  - {fileID: 567341133767377534}
-  - {fileID: -4688399521267928900}
-  - {fileID: -6313363903074643943}
   - {fileID: -4032471469117164208}
-  - {fileID: -6320456645732455422}
-  - {fileID: -3835351059419555204}
-  - {fileID: 4218322072111435555}
-  - {fileID: -4246744697461997823}
-  - {fileID: -8738744131178787348}
   - {fileID: -3830263011273236712}
+  - {fileID: -128324030355398872}
+  - {fileID: 8920655767821252643}
+  - {fileID: 1091186939451445401}
+  - {fileID: -4685942415296462026}
+  - {fileID: 6313714897453384245}
+  - {fileID: -2398450162631898690}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -297460671244504612}
+  - {fileID: 6141849086486552556}
   StringsBanks:
-  - {fileID: 2565381813284281791}
-  cacheTime: 638636465958444457
+  - {fileID: -9107232186173112776}
+  cacheTime: 638841112850776371
   cacheVersion: 131617
---- !u!114 &567341133767377534
+--- !u!114 &1091186939451445401
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -412,126 +279,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tavern ambient
+  m_Name: event:/Ambient
   m_EditorClassIdentifier: 
-  Path: event:/Tavern ambient
+  Path: event:/Ambient
   Guid:
-    Data1: 14342582
-    Data2: 1330937393
-    Data3: -1880517233
-    Data4: 8083909
+    Data1: 1241668036
+    Data2: 1251673687
+    Data3: -762424142
+    Data4: -800840377
   Banks:
-  - {fileID: -297460671244504612}
+  - {fileID: 6141849086486552556}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
-  Parameters:
-  - {fileID: -1530002513333546396}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 207609
---- !u!114 &1915591009699025771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Land/Footsteps_surface
-  m_EditorClassIdentifier: 
-  Name: Footsteps_surface
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 339004533
-    data2: 4014147562
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Stone
-  - Wood
-  - Bed
-  Exists: 1
---- !u!114 &2339984271117014530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Music/Switch_parts
-  m_EditorClassIdentifier: 
-  Name: Switch_parts
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 916557027
-    data2: 629030597
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Part 1
-  - Part 2
-  - Part 3
-  - Outro
-  Exists: 1
---- !u!114 &2565381813284281791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD Studio/Tavern/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638636465958444457
-  FileSizes:
-  - Name: Desktop
-    Value: 1894
-  Exists: 1
---- !u!114 &2888711263503991802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Footsteps/Footsteps_surface
-  m_EditorClassIdentifier: 
-  Name: Footsteps_surface
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 339004533
-    data2: 4014147562
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Stone
-  - Wood
-  - Bed
-  Exists: 1
+  Length: 48500
 --- !u!114 &4173816062126049097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,49 +310,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Fire
   Guid:
-    Data1: -1448891276
-    Data2: 1132134398
-    Data3: 1126525614
-    Data4: 1244643740
+    Data1: -516056703
+    Data2: 1194425865
+    Data3: 1971943561
+    Data4: -1273933921
   Banks:
-  - {fileID: -297460671244504612}
+  - {fileID: 6141849086486552556}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters:
-  - {fileID: -3989542463898777717}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 80000
---- !u!114 &4218322072111435555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Footsteps/Footsteps
-  m_EditorClassIdentifier: 
-  Path: event:/Footsteps/Footsteps
-  Guid:
-    Data1: 1220582992
-    Data2: 1201132662
-    Data3: -1913220439
-    Data4: 1069297032
-  Banks:
-  - {fileID: -297460671244504612}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 2888711263503991802}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 324
---- !u!114 &6954510192736954330
+--- !u!114 &5877453857353778668
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -598,22 +333,69 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jump/Jumping_phase
+  m_Name: parameter:/Door/DoorSwitcher
   m_EditorClassIdentifier: 
-  Name: Jumping_phase
+  Name: DoorSwitcher
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 1202008182
-    data2: 1687921974
+    data1: 1379458713
+    data2: 2767375138
   Type: 2
   IsGlobal: 0
   Labels:
-  - Jump
-  - Land
+  - Open
+  - Close
   Exists: 1
+--- !u!114 &6141849086486552556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Tavern/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638841112850761319
+  FileSizes:
+  - Name: Desktop
+    Value: 6926144
+  Exists: 1
+--- !u!114 &6313714897453384245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Inside_Room
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Inside_Room
+  Guid:
+    Data1: -1989151792
+    Data2: 1223361699
+    Data3: 924931971
+    Data4: -1562369975
+  Banks:
+  - {fileID: 6141849086486552556}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &7840059489574424299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,18 +410,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Music
   Guid:
-    Data1: 749702936
-    Data2: 1075264532
-    Data3: 1750197911
-    Data4: 145313662
+    Data1: 976760425
+    Data2: 1261270620
+    Data3: 1714524574
+    Data4: 173556500
   Banks:
-  - {fileID: -297460671244504612}
+  - {fileID: 6141849086486552556}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters:
-  - {fileID: 2339984271117014530}
-  - {fileID: -1195820580763886965}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 77538
+--- !u!114 &8920655767821252643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps
+  Guid:
+    Data1: 934169631
+    Data2: 1238396266
+    Data3: -1252074348
+    Data4: -1378550198
+  Banks:
+  - {fileID: 6141849086486552556}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -245946615216094018}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 487
