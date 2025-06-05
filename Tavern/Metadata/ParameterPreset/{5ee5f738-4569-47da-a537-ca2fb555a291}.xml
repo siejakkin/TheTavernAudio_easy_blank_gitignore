@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{5ee5f738-4569-47da-a537-ca2fb555a291}">
+		<property name="name">
+			<value>LandSwitcher</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6ffb37d2-7131-438f-be39-5f6bacae6c44}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{fb074249-5f8f-4749-abcd-45ad02518d79}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{fb074249-5f8f-4749-abcd-45ad02518d79}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Stone</value>
+			<value>Wood</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
