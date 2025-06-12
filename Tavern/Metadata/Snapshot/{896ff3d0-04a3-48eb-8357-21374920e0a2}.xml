@@ -19,9 +19,31 @@
 		<relationship name="snapshotMasterTrack">
 			<destination>{baa2af03-671f-4d4a-a289-fb9bdb4a5a41}</destination>
 		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{52cb18f4-80ea-4a2c-98b9-85d58926a063}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{a03e23e9-b497-4e9f-a297-265e2217862a}</destination>
+		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1dc535f4-870c-4d55-a547-c754b13d2dc7}" />
 	<object class="MarkerTrack" id="{aca876ab-94e8-43d3-b1a5-7fa92da9951b}" />
 	<object class="Timeline" id="{319c0294-efda-43ad-9591-d2fa737dc385}" />
 	<object class="SnapshotMasterTrack" id="{baa2af03-671f-4d4a-a289-fb9bdb4a5a41}" />
+	<object class="SnapshotProperty" id="{52cb18f4-80ea-4a2c-98b9-85d58926a063}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-13</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{e02fa55f-278e-4c10-9b05-b51d9f191eaa}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{a03e23e9-b497-4e9f-a297-265e2217862a}">
+		<relationship name="mixerStrip">
+			<destination>{e02fa55f-278e-4c10-9b05-b51d9f191eaa}</destination>
+		</relationship>
+	</object>
 </objects>

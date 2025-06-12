@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638847172385851464
+  lastModified: 638853187400104927
   FileSizes:
   - Name: Desktop
     Value: 1674
@@ -206,7 +206,7 @@ MonoBehaviour:
   - {fileID: 5877453857353778668}
   MinDistance: 1
   MaxDistance: 20
-  Length: 750
+  Length: 985
 --- !u!114 &-245946615216094018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,7 +294,7 @@ MonoBehaviour:
   - {fileID: 6141849086486552556}
   StringsBanks:
   - {fileID: -9107232186173112776}
-  cacheTime: 638847172385851464
+  cacheTime: 638853187400104927
   cacheVersion: 131617
 --- !u!114 &1091186939451445401
 MonoBehaviour:
@@ -419,10 +419,10 @@ MonoBehaviour:
   Path: Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638847172385831466
+  lastModified: 638853187400079784
   FileSizes:
   - Name: Desktop
-    Value: 6927136
+    Value: 6934496
   Exists: 1
 --- !u!114 &6313714897453384245
 MonoBehaviour:

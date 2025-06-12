@@ -25,8 +25,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{73d6df70-6dc4-49f4-b8ff-f88b4646ed6f}" />
 	<object class="SFXReverbEffect" id="{626fef7a-162f-404a-81ac-f8cb5ed96dac}">
+		<property name="HFDecayRatio">
+			<value>44</value>
+		</property>
 		<property name="wetLevel">
-			<value>0</value>
+			<value>-33</value>
 		</property>
 		<property name="dryLevel">
 			<value>-80</value>
